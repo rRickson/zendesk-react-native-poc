@@ -1,3 +1,4 @@
+
 # ZENDESK POC 
 
 This repo is regard utilization of modules to connect and use ZENDESK Chat.
@@ -56,13 +57,22 @@ include ':app'
 ```
 
 
-1- [@zanechua/React-Native-zendesk-chat](https://www.npmjs.com/package/@zanechua/react-native-zendesk-chat) / [GIT](#)
+## Initialization
+[@zanechua/React-Native-zendesk-chat](https://www.npmjs.com/package/@zanechua/react-native-zendesk-chat)
 
 
 ```bash
-1- Initialization of zendesk on app started on configuration on IOS (AppDelegate.m), putting account key.
-2- Start Chat function can be called anywhere on the application.
+import ZendeskChat from '@zanechua/react-native-zendesk-chat';
+    
+ZendeskChat.init('ACCOUNT_KEY');.
 ```
+
+**Initialization**
+
+Zendesk can be initiate by JS (No need native Initialization), and can be call anywhere on the app (recomend on root to be available on all pages).
+
+---
+
 
 
 ## Features

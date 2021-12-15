@@ -69,7 +69,7 @@ ZendeskChat.init('ACCOUNT_KEY');.
 
 **Initialization**
 
-Zendesk can be initiate by JS (No need native Initialization), and can be call anywhere on the app (recomend on root to be available on all pages).
+Zendesk can be initiate by JS (No need native initialization) and can be call anywhere on the app (recomend on root to be available on all pages).
 
 ---
 
